@@ -25,6 +25,7 @@ public class Modul8 {
 			sum=prev+next;
 			prev=next;
 			next=sum;
+			//radianpratama
 		}
 	}
     
