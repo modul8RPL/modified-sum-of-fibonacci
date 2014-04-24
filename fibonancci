@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package modul8;
+
+/**
+ *
+ * @author Asisten
+ */
+public class Modul8 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[])
+	{		
+		int prev, next, sum, n;
+		prev=next=1;
+		for(n=1;n<=10;n++)
+		{
+			System.out.println(prev);
+			sum=prev+next;
+			prev=next;
+			next=sum;
+		}
+	}
+    
+}
